@@ -1,5 +1,5 @@
 *{
-    /*font-family: Fredoka;*/
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,10 +7,60 @@
 body{
     background-color: aliceblue;
 }
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+/*
+###########################################
+HEADER INI
+###########################################
+*/
+
+header{
+    height: 60px;
+    background-color: rgb(255, 145, 0);
+    margin-bottom: 20px;
+}
+
+header img{
+    width: 200px;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+ul li a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+/*
+###########################################
+HEADER INI
+###########################################
+*/
+
+/*
+###########################################
+MAIN INI
+###########################################
+*/
+/*
 main{
     width: 80%;
     margin: 30px auto;
 }
+*/
 .row-flex{
     display: flex;
     margin-bottom: 40px;
@@ -22,14 +72,15 @@ main{
 }
 .col img{
     width: 100%;
+    margin-bottom: 5px;
 }
 .margin{
     margin: 0 40px;
 }
 .label1{
     position: absolute;
-    bottom: 30px;
-    width: 90px;
+    bottom: 120px;
+    width: 105px;
     padding: 3px;
     left: 47px;
     background-color: green;
@@ -38,7 +89,7 @@ main{
 }
 .label2{
     position: absolute;
-    bottom: 30px;
+    bottom: 120px;
     width: 44px;
     padding: 3px;
     background-color: red;
@@ -47,8 +98,8 @@ main{
 }
 .label3{
     position: absolute;
-    bottom: 30px;
-    width: 90px;
+    bottom: 120px;
+    width: 105px;
     padding: 3px;
     background-color: green;
     font-weight: bold;
@@ -57,12 +108,12 @@ main{
 .heart{
     position: absolute;
     right: 0;
-    top: -25px;
-    width: 45px;
+    top: -35px;
+    width: 90%;
     padding-top: 40px;
-    right: -12px;
+    right: -9px;
     color: black;
-    font-size: 25px;
+    font-size: 40px;
 }
 .square{
     height: 50px;
@@ -74,14 +125,45 @@ main{
     top: 40px;    
 }
 /*
-.heart{
-    position: absolute;
-    bottom: 30px;
-    width: 100%;
-    text-align: center;
-    color: black;
-    font-size: 25px;
+###########################################
+MAIN END
+###########################################
+*/
+
+/*
+###########################################
+INFO INI
+###########################################
+*/
+.marca {
+    font-size: 15px;
 }
+.prodotto {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+.prezzo {
+    font-size: 18px;
+    color: red;
+    font-weight: bold;
+}
+.prezzoold {
+    margin: 0 10px;
+    font-size: 18px;
+    text-decoration: line-through;
+}
+
+/*
+###########################################
+INFO INI
+###########################################
+*/
+
+/*
+###########################################
+HOVER INI
+###########################################
 */
 .col:hover .heart{
     display: block;
@@ -93,9 +175,7 @@ main{
 .col:hover .first{
     display: none;
 }
-.second{
-    display: none;
-}
+
 .second{
     display: none;
 }
@@ -103,3 +183,8 @@ main{
 .box{
     width: 100%;
 }
+/*
+###########################################
+HOVER END
+###########################################
+*/
