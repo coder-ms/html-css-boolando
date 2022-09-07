@@ -99,3 +99,7 @@ main{
 .second{
     display: none;
 }
+
+.box{
+    width: 100%;
+}
