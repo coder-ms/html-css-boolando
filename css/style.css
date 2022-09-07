@@ -24,35 +24,68 @@ main{
     width: 100%;
 }
 .margin{
-    margin: 0 5px;
+    margin: 0 40px;
 }
 .label1{
     position: absolute;
-    right: 0;
-    top: 0;
-    width: 45px;
+    bottom: 30px;
+    width: 90px;
     padding: 3px;
+    left: 47px;
     background-color: green;
+    font-weight: bold;
+    color: white;
 }
 .label2{
     position: absolute;
-    right: 0;
-    top: 0;
-    width: 45px;
+    bottom: 30px;
+    width: 44px;
     padding: 3px;
     background-color: red;
+    font-weight: bold;
+    color: white;
 }
+.label3{
+    position: absolute;
+    bottom: 30px;
+    width: 90px;
+    padding: 3px;
+    background-color: green;
+    font-weight: bold;
+    color: white;
+}
+.heart{
+    position: absolute;
+    right: 0;
+    top: -25px;
+    width: 45px;
+    padding-top: 40px;
+    right: -12px;
+    color: black;
+    font-size: 25px;
+}
+.square{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border: 1pxsolid black;
+    position: absolute;
+    right: 0;
+    top: 40px;    
+}
+/*
 .heart{
     position: absolute;
     bottom: 30px;
     width: 100%;
     text-align: center;
-    color: red;
+    color: black;
     font-size: 25px;
-    display: none;
 }
+*/
 .col:hover .heart{
     display: block;
+    color: red;
 }
 .col:hover .second{
     display: inline-block;
