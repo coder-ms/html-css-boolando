@@ -188,3 +188,34 @@ HOVER INI
 HOVER END
 ###########################################
 */
+
+/*
+###########################################
+FOOTER INI
+###########################################
+*/
+footer{
+    height: 60px;
+    background-color: darkblue;
+    margin-top: 20px;
+}
+
+footer img{
+    width: 200px;
+}
+.footnavbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+ul li p{
+    padding-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;    
+}
+/*
+###########################################
+FOOTER END
+###########################################
+*/
