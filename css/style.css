@@ -1,0 +1,68 @@
+*{
+    /*font-family: Fredoka;*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aliceblue;
+}
+main{
+    width: 80%;
+    margin: 30px auto;
+}
+.row-flex{
+    display: flex;
+    margin-bottom: 40px;
+}
+.col{
+    width: calc((100% - 10px) / 3);
+    position: relative;
+    cursor: pointer;
+}
+.col img{
+    width: 100%;
+}
+.margin{
+    margin: 0 5px;
+}
+.label1{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 45px;
+    padding: 3px;
+    background-color: green;
+}
+.label2{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 45px;
+    padding: 3px;
+    background-color: red;
+}
+.heart{
+    position: absolute;
+    bottom: 30px;
+    width: 100%;
+    text-align: center;
+    color: red;
+    font-size: 25px;
+    display: none;
+}
+.col:hover .heart{
+    display: block;
+}
+.col:hover .second{
+    display: inline-block;
+}
+.col:hover .first{
+    display: none;
+}
+.second{
+    display: none;
+}
+.second{
+    display: none;
+}
