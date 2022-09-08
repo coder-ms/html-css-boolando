@@ -26,6 +26,7 @@ header{
 
 header img{
     width: 200px;
+    margin-top: 5px;
 }
 .navbar{
     display: flex;
@@ -195,24 +196,32 @@ FOOTER INI
 ###########################################
 */
 footer{
-    height: 60px;
-    background-color: darkblue;
+    height: 80px;
+    background-color: #111111;
     margin-top: 20px;
 }
 
-footer img{
-    width: 200px;
-}
 .footnavbar{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-ul li p{
+div p{
     padding-top: 10px;
     font-size: 18px;
+    color: white;  
     font-weight: bold;
-    color: white;    
+}
+ul li a {
+    padding-top: 10px;
+    font-size: 14px;
+    color: white; 
+    cursor: pointer;
+    font-weight: 100;   
+}
+ul li i{
+    color: white;
+    cursor: pointer;
 }
 /*
 ###########################################
